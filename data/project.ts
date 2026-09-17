@@ -1,4 +1,4 @@
-interface Project {
+export interface Project {
   title: string;
   description: string;
   problem: string;
@@ -10,7 +10,7 @@ interface Project {
   gradient: string;
 }
 
-const PROJECTS: Project[] = [
+export const PROJECTS: Project[] = [
   {
     title: "Taskly — Team Project Manager",
     description:
