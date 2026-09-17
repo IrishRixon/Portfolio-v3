@@ -1,9 +1,9 @@
-interface NavItem {
+export interface NavItem {
     label: string;
     href: string
 }
 
-const NAV_ITEMS: NavItem[] = [
+export const NAV_ITEMS: NavItem[] = [
     { label: "About", href: "#about" },
     { label: "Experience", href: "#experience" },
     { label: "Skills", href: "#skills" },
