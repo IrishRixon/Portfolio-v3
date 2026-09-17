@@ -1,4 +1,4 @@
-interface Experience {
+export interface Experience {
     role: string;
     company: string;
     period: string;
@@ -8,7 +8,7 @@ interface Experience {
     tech: string[];
 }
 
-const EXPERIENCE: Experience[] = [
+export const EXPERIENCE: Experience[] = [
     {
         role: "Junior Frontend Developer",
         company: "Meridian Digital",
