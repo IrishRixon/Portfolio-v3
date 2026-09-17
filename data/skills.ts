@@ -1,9 +1,9 @@
-interface SkillCategory {
+export interface SkillCategory {
     name: string;
     skills: string[]
 }
 
-const skills: SkillCategory[] = [
+export const SKILLS: SkillCategory[] = [
     {
         name: "Frontend",
         skills: ["React", "TypeScript", "JavaScript", "Angular", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
