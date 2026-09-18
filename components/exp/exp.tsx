@@ -18,7 +18,7 @@ export default function Experience() {
                         Professional work.
                     </h2>
                     <p className="mb-12 max-w-[480px] text-[15px] text-muted-foreground">
-                        Real-world engineering in a production environment, working on software people use every day.
+                        Building and integrating features for production web applications across multiple business domains.
                     </p>
                 </AnimatedSection>
 
@@ -60,26 +60,6 @@ export default function Experience() {
                         </div>
                     </AnimatedSection>
                 ))}
-
-                {/* Earlier experience placeholder */}
-                <AnimatedSection>
-                    <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-dashed border-border px-6 py-7 sm:px-9">
-                        <div>
-                            <div className="mb-0.5 font-display text-base font-semibold text-foreground">
-                                Academic &amp; Freelance Projects
-                            </div>
-                            <div className="text-[13px] text-muted-foreground">
-                                University coursework, open-source contributions, and freelance web work · 2021–2023
-                            </div>
-                        </div>
-                        <Link
-                            href="#projects"
-                            className="text-[13px] font-medium text-primary no-underline hover:underline"
-                        >
-                            See projects →
-                        </Link>
-                    </div>
-                </AnimatedSection>
             </div>
         </section>
     );

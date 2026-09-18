@@ -35,10 +35,7 @@ export default function Hero() {
 
           {/* Bio */}
           <p className="mb-10 max-w-[540px] font-sans text-[clamp(15px,1.5vw,17px)] leading-[1.75] text-muted-foreground">
-            I build thoughtful frontend experiences with React and TypeScript at{" "}
-            <strong className="font-semibold text-foreground">Meridian Digital</strong>.
-            Seven months in, I&apos;ve shipped production features, improved performance, and learned how real
-            teams ship real software.
+            I build thoughtful web experiences with Next.js, TypeScript, and modern web technologies. I enjoy turning ideas into reliable, user-focused applications while continuously learning how to build and ship real software.
           </p>
 
           {/* CTAs */}
@@ -65,9 +62,10 @@ export default function Hero() {
                 key={link.label}
                 href={link.href}
                 aria-label={link.label}
+                target="_blank"
                 className="flex items-center gap-[5px] font-sans text-[13px] text-muted-foreground no-underline transition-colors duration-200 hover:text-foreground"
               >
-                <Image src={link.icon} alt={link.label} width={20} height={20} /> <span>{link.label}</span>
+                {link.label}
               </Link>
             ))}
           </div>

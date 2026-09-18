@@ -11,11 +11,10 @@ export default function Skills() {
             Technical Skills
           </p>
           <h2 className="mb-6 font-display text-[clamp(28px,4vw,40px)] leading-[1.15] font-extrabold tracking-[-0.02em] text-foreground">
-            Technologies I work with.
+            Technologies I use to build software.
           </h2>
           <p className="mb-12 max-w-[480px] text-[15px] text-muted-foreground">
-            Hands-on experience from professional work, personal projects, and academic study.
-          </p>
+            Hands-on experience across frontend development, backend APIs, databases, and development tools through professional work and personal projects.          </p>
         </AnimatedSection>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -41,4 +40,3 @@ export default function Skills() {
   );
 }
 
-export { Skills };

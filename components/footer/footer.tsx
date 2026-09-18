@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-[1200px] flex-wrap items-center justify-between gap-4 px-6">
         <div>
           <div className="font-display text-[15px] font-extrabold tracking-[-0.02em] text-foreground">
-            Jordan<span className="text-primary">.</span>
+            Rixon<span className="text-primary">.</span>
           </div>
           <div className="mt-0.5 font-sans text-xs text-muted-foreground">
             Junior Software Developer
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         <div className="font-mono text-[11px] text-muted-foreground">
-          © {new Date().getFullYear()} Jordan Ellis
+          © {new Date().getFullYear()} Irish Rixon Dela Peña
         </div>
       </div>
     </footer>

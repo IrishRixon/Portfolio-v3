@@ -9,7 +9,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
-  const email = "jordan.ellis@dev.io";
+  const email = "irishrixon@gmail.com";
 
   const copyEmail = () => {
     navigator.clipboard.writeText(email).then(() => {
@@ -36,7 +36,7 @@ export default function Contact() {
             <span className="text-primary">together.</span>
           </h2>
           <p className="mb-10 text-[15.5px] leading-[1.75] text-muted-foreground">
-            I&apos;m open to junior or early mid-level roles, freelance work, and interesting side projects.
+            I&apos;m open to junior roles, freelance work, and interesting side projects.
             If something looks like a fit, I&apos;d love to hear from you.
           </p>
 
@@ -66,7 +66,6 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-6 py-3 font-sans text-sm font-semibold text-foreground no-underline transition-all duration-200 hover:-translate-y-px hover:border-muted-foreground"
             >
-              <Image src="/linkedin-logo.png" alt="" width={16} height={16} aria-hidden />
               LinkedIn
             </Link>
 
@@ -76,7 +75,6 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-6 py-3 font-sans text-sm font-semibold text-foreground no-underline transition-all duration-200 hover:-translate-y-px hover:border-muted-foreground"
             >
-              <Image src="/github.png" alt="" width={16} height={16} aria-hidden />
               GitHub
             </Link>
           </div>

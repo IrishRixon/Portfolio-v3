@@ -22,19 +22,18 @@ export default function Education() {
               </div>
               <div>
                 <h3 className="mb-1 font-display text-lg font-bold text-foreground">
-                  BSc Computer Science
+                  BS Information Technology
                 </h3>
                 <div className="mb-3 flex flex-wrap items-center gap-x-2 gap-y-1">
                   <span className="font-sans text-[15px] font-semibold text-primary">
-                    University of Westfield
+                    Pampanga State University
                   </span>
                   <span className="font-mono text-[12.5px] text-muted-foreground">
-                    · 2020–2024
+                    · 2021–2025
                   </span>
                 </div>
                 <p className="text-[14.5px] leading-[1.75] text-muted-foreground">
-                  Graduated with Upper Second Class Honours. Relevant modules: Web Development, Software Engineering, Databases, Algorithms & Data Structures, Networks.
-                  Final year project: a distributed task management system using WebSockets and React.
+                  Bachelor of Science in Information Technology, with a strong foundation in software development, and databases.
                 </p>
               </div>
             </div>
