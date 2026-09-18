@@ -48,7 +48,9 @@ export default function Nav({ dark, onToggle }: { dark: boolean; onToggle: () =>
                         {dark ? <Sun /> : <Moon />}
                     </Button>
                     <Link
-                        href="#"
+                        href="/Resume.pdf"
+                        download
+                        prefetch={false}
                         className="hidden font-sans text-[13px] font-semibold tracking-[0.01em] text-primary-foreground bg-primary no-underline px-4 py-[7px] rounded-lg transition-opacity duration-200 hover:opacity-90 md:block"
                     >
                         Resume
@@ -77,7 +79,10 @@ export default function Nav({ dark, onToggle }: { dark: boolean; onToggle: () =>
                         </Link>
                     ))}
                     <Link
-                        href="#"
+                        href="/Resume.pdf"
+                        download
+                        prefetch={false}
+                        onClick={() => setMenuOpen(false)}
                         className="font-sans text-sm font-semibold text-primary no-underline"
                     >
                         Download Resume ↓
