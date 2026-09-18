@@ -84,5 +84,3 @@ export default function Experience() {
         </section>
     );
 }
-
-export { Experience };
