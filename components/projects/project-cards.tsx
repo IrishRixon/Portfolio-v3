@@ -39,7 +39,7 @@ export function ProjectCard({ project }: { project: Project }) {
             backgroundSize: "32px 32px",
           }}
         />
-        <Icon size={64}/>
+        <Icon size={64} />
       </div>
 
       <div className="flex flex-1 flex-col p-6">
@@ -94,27 +94,35 @@ export function ProjectCard({ project }: { project: Project }) {
           )}
         </div>
 
-        <div className="flex gap-2.5 border-t border-border pt-4">
-          <Link
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-[5px] rounded-md border border-border bg-secondary px-3 py-1.5 font-sans text-[13px] font-semibold text-foreground no-underline transition-colors duration-200 hover:border-muted-foreground"
-          >
-            <CodeXml className="size-[13px]" aria-hidden />
-            Code
-          </Link>
-          {project.demo && (
+        <div className="border-t border-border pt-4 flex justify-between items-center">
+          <div className="flex gap-2.5 ">
             <Link
-              href={project.demo}
+              href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-[5px] rounded-md bg-primary px-3 py-1.5 font-sans text-[13px] font-semibold text-primary-foreground no-underline transition-opacity duration-200 hover:opacity-90"
+              className="flex items-center gap-[5px] rounded-md border border-border bg-secondary px-3 py-1.5 font-sans text-[13px] font-semibold text-foreground no-underline transition-colors duration-200 hover:border-muted-foreground"
             >
-              <ArrowUpRight className="size-[13px]" aria-hidden />
-              Live
+              <CodeXml className="size-[13px]" aria-hidden />
+              Code
             </Link>
-          )}
+            {project.demo && (
+              <Link
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-[5px] rounded-md bg-primary px-3 py-1.5 font-sans text-[13px] font-semibold text-primary-foreground no-underline transition-opacity duration-200 hover:opacity-90"
+              >
+                <ArrowUpRight className="size-[13px]" aria-hidden />
+                Live
+              </Link>
+            )}
+          </div>
+
+          <div>
+            <p className="text-sm text-muted-foreground font-mono">
+              {project.dateStarted}
+            </p>
+          </div>
         </div>
       </div>
     </div>

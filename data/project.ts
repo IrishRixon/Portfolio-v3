@@ -11,6 +11,7 @@ export interface Project {
   demo?: string;
   featured?: boolean;
   gradient: string;
+  dateStarted: string;
 }
 
 export const PROJECTS: Project[] = [
@@ -39,23 +40,32 @@ export const PROJECTS: Project[] = [
     demo: "",
     featured: true,
     gradient: "from-emerald-500/10 to-teal-500/10",
+    dateStarted: "June 2026"
   },
   {
-    title: "Pawfile - QR code Identification for pets",
+    title: "Personal Portfolio V2",
     description:
-      "A full-stack pet identification platform that helps pet owners create digital pet profiles and quickly access important pet information through a unique QR code.",
-    problem: "Pet owners may have difficulty providing identification and important information when a pet is lost. PawFile provides a scannable QR code linked to a digital pet profile.",
-    icon: PawPrint,
-    tags: ["Angular", "TypeScript", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+      "A redesigned personal portfolio focused on interactive motion, and a polished developer experience while showcasing my professional work and full-stack projects.",
+    problem:
+      "As my development experience and technical skills grew, my original portfolio no longer represented the quality and breadth of my work. V2 was created to provide a more modern and engaging way to present my projects and experience.",
+    icon: Sparkles,
+    tags: [
+      "React",
+      "TypeScript",
+      "Reactbits",
+      "Tailwind CSS",
+    ],
     features: [
-      "Unique QR codes linked to digital pet profiles",
-      "Pet profile and information management",
-      "Image uploads using Cloudinary",
+      "Modern responsive portfolio design with motion",
+      "Interactive animations and motion-based UI elements",
+      "Organized showcase of frontend, backend, IoT, and other projects",
+      "Updated experience, skills, education, and project sections",
     ],
     github: "https://github.com/IrishRixon",
-    demo: "",
+    demo: "https://irishrixonportfolio-v2.netlify.app/",
     featured: false,
-    gradient: "from-blue-500/10 to-cyan-500/10",
+    gradient: "from-violet-500/10 to-indigo-500/10",
+    dateStarted: "Jan 2026"
   },
   {
     title: "QuizAI",
@@ -73,70 +83,48 @@ export const PROJECTS: Project[] = [
     demo: "",
     featured: false,
     gradient: "from-blue-500/10 to-cyan-500/10",
-  },
-  {
-    title: "Personal Portfolio V2",
-
-    description:
-      "A redesigned personal portfolio focused on interactive motion, and a polished developer experience while showcasing my professional work and full-stack projects.",
-
-    problem:
-      "As my development experience and technical skills grew, my original portfolio no longer represented the quality and breadth of my work. V2 was created to provide a more modern and engaging way to present my projects and experience.",
-
-    icon: Sparkles,
-
-    tags: [
-      "React",
-      "TypeScript",
-      "Reactbits",
-      "Tailwind CSS",
-    ],
-
-    features: [
-      "Modern responsive portfolio design with motion",
-      "Interactive animations and motion-based UI elements",
-      "Organized showcase of frontend, backend, IoT, and other projects",
-      "Updated experience, skills, education, and project sections",
-    ],
-
-    github: "https://github.com/IrishRixon",
-
-    demo: "https://irishrixonportfolio-v2.netlify.app/",
-
-    featured: false,
-
-    gradient: "from-violet-500/10 to-indigo-500/10",
+    dateStarted: "Oct 2025"
   },
   {
     title: "Personal Portfolio V1",
-
     description:
       "My first personal portfolio website, built to showcase my projects, technical skills, education, and early experience as a student.",
-
     problem:
       "I needed a simple online presence to present my development work and make it easier for recruiters and other developers to explore my projects, skills, and background.",
-
     icon: Globe,
-
     tags: [
       "Angular",
       "TypeScript",
       "Tailwind CSS",
     ],
-
     features: [
       "Responsive personal portfolio layout",
       "Project showcase with technology and feature highlights",
       "Sections for skills, education, and professional background",
       "Contact and social links for professional networking",
     ],
-
     github: "https://github.com/IrishRixon",
-
     demo: "",
-
     featured: false,
-
     gradient: "from-slate-500/10 to-zinc-500/10",
+    dateStarted: "May 2025",
+  },
+  {
+    title: "Pawfile - QR code Identification for pets",
+    description:
+      "A full-stack pet identification platform that helps pet owners create digital pet profiles and quickly access important pet information through a unique QR code.",
+    problem: "Pet owners may have difficulty providing identification and important information when a pet is lost. PawFile provides a scannable QR code linked to a digital pet profile.",
+    icon: PawPrint,
+    tags: ["Angular", "TypeScript", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+    features: [
+      "Unique QR codes linked to digital pet profiles",
+      "Pet profile and information management",
+      "Image uploads using Cloudinary",
+    ],
+    github: "https://github.com/IrishRixon",
+    demo: "",
+    featured: false,
+    gradient: "from-blue-500/10 to-cyan-500/10",
+    dateStarted: "Feb 2025",
   },
 ];
